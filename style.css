@@ -1,0 +1,143 @@
+body.temaclaro1 {
+
+    background-color: #fa8080;
+    color: #ffffff;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+body.temaclaro1 .timer {
+    font-size: 100px;
+}
+
+
+body.temaclaro1 .custom-navbar {
+    background-color: #e83232;
+}
+
+
+body.temaclaro1 .botoes .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #cd5c5c;
+    color: #ffffff
+}
+
+
+body.temaclaro1 .nav-item .btn {
+    background-color: #fc0d0d;
+
+}
+
+
+body.temaclaro1 .botoesHist .btn {
+    background-color: #cd5c5c;
+}
+
+
+body.temaclaro1 .navbar-brand {
+    color: #ffffff;
+
+}
+
+
+
+body.temaclaro2 {
+
+    background-color: #b0e0e6;
+    color: #ffffff;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+body.temaclaro2 .timer {
+    font-size: 100px;
+}
+
+
+body.temaclaro2 .custom-navbar {
+    background-color: #13c4ff;
+}
+
+
+body.temaclaro2 .botoes .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #4cc5ee;
+    color: #ffffff;
+}
+
+
+body.temaclaro2 .nav-item .btn {
+    background-color: #2f84d8;
+}
+
+
+body.temaclaro2 .botoesHist .btn {
+    background-color: #4cc5ee;
+}
+
+
+body.temaclaro2 .navbar-brand {
+    color: #ffffff;
+
+}
+
+
+
+body.temaescuro {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+
+body.temaescuro .timer {
+    font-size: 100px;
+}
+
+
+body.temaescuro .custom-navbar {
+    background-color: #303030;
+}
+
+
+body.temaescuro .botoes .btn {
+    width: 150px;
+    height: 50px;
+    background-color: #696969;
+    color: #ffffff;
+}
+
+
+body.temaescuro .nav-item .btn {
+    background-color: #1d1d1d;
+}
+
+
+body.temaescuro .botoesHist .btn {
+    background-color: #696969;
+}
+
+
+body.temaescuro .navbar-brand {
+    color: #ffffff;
+
+}
