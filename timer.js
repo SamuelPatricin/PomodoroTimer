@@ -1,7 +1,7 @@
 let timer;
 let trabalhando = true;
 let quantTrabalho = 0;          // Contador de sessões de trabalho
-let tempoRestante = 10;          // 25 minutos em segundos
+let tempoRestante = 25 * 60;          // 25 minutos em segundos
 
 const temporizador = document.querySelector('.timer');
 
@@ -45,17 +45,17 @@ function iniciar() {
              
                 if (quantTrabalho >= 4) {
                     // Após 4 sessões de trabalho, faz uma pausa de 15 minutos
-                    tempoRestante = 15;          // 15 minutos
+                    tempoRestante = 15 * 60;          // 15 minutos
                     document.getElementById('alarmeIniciar').play();          // Toca o alarme 
                     quantTrabalho = 0;          // Reinicia o contador de sessões
                     document.getElementById('alarmeIniciar').play();          // Toca o alarme 
                 } else {
-                    tempoRestante = 5;          // Pausa de 5 minutos
+                    tempoRestante = 5 * 60;          // Pausa de 5 minutos
                     document.getElementById('alarmeIniciar').play();          // Toca o alarme 
                 }
             } else {
               
-                tempoRestante = 10;          // Volta a 25 minutos
+                tempoRestante = 25 * 60;          // Volta a 25 minutos
                 document.getElementById('alarmeIniciar').play();          // Toca o alarme 
             }
             trabalhando = !trabalhando;          // alternar a variável pra booleano (true ou falso)
@@ -75,7 +75,7 @@ function reiniciar() {
     timer = null;          // Indica que não há timer ativo
     trabalhando = true;          // Significa que o próximo ciclo começará com uma sessão de trabalho
     quantTrabalho = 0;          // Reinicia o contador de sessões
-    tempoRestante = 10;          // Reinicia para 25 minutos
+    tempoRestante = 25 * 60;          // Reinicia para 25 minutos
     updateDisplay();          // Puxa a função pra exibir um novo tempo restante.
     atualizarTema();          // Atualiza o tema para o estado inicial
 }
